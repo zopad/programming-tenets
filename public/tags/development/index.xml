@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on Programming tenets</title>
+    <link>/tags/development/</link>
+    <description>Recent content in development on Programming tenets</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 20 Sep 2021 02:13:55 +0000</lastBuildDate><atom:link href="/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dependency Inversion Principle (DIP)</title>
+      <link>/5dip/</link>
+      <pubDate>Mon, 20 Sep 2021 02:13:55 +0000</pubDate>
+      
+      <guid>/5dip/</guid>
+      <description>In short &amp;ldquo;Depend upon abstractions, not concretions.&amp;rdquo;
+Full definition In object-oriented design, the dependency inversion principle is a specific form of loosely coupling software modules. When following this principle, the conventional dependency relationships established from high-level, policy-setting modules to low-level, dependency modules are reversed, thus rendering high-level modules independent of the low-level module implementation details. The principle states:
+ High-level modules should not import anything from low-level modules. Both should depend on abstractions (e.</description>
+    </item>
+    
+    <item>
+      <title>Interface segregation principle</title>
+      <link>/4isp/</link>
+      <pubDate>Mon, 20 Sep 2021 02:13:54 +0000</pubDate>
+      
+      <guid>/4isp/</guid>
+      <description>In short Many client-specific interfaces are better than one general-purpose interface.
+Detailed The interface-segregation principle (ISP) states that no client should be forced to depend on methods it does not use. ISP splits interfaces that are very large into smaller and more specific ones so that clients will only have to know about the methods that are of interest to them. Such shrunken interfaces are also called role interfaces. ISP is intended to keep a system decoupled and thus easier to refactor, change, and redeploy.</description>
+    </item>
+    
+    <item>
+      <title>Liskov Substitution Principle</title>
+      <link>/3lsp/</link>
+      <pubDate>Mon, 20 Sep 2021 02:13:53 +0000</pubDate>
+      
+      <guid>/3lsp/</guid>
+      <description>Introduction &amp;ldquo;Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.&amp;rdquo;
+Full definition Substitutability is a principle in object-oriented programming stating that, in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S (i.e., an object of type T may be substituted with any object of a subtype S) without altering any of the desirable properties of the program (correctness, task performed, etc.</description>
+    </item>
+    
+    <item>
+      <title>Open/Closed Principle</title>
+      <link>/2ocp/</link>
+      <pubDate>Mon, 20 Sep 2021 02:13:52 +0000</pubDate>
+      
+      <guid>/2ocp/</guid>
+      <description>Introduction This principle means you should aim to make your code open to extension but closed to modification. This is an important principle when releasing a library or framework that others will use.
+For example, suppose you&amp;rsquo;re maintaining a GUI framework. You could release for coders to directly modify and integrate your released code. But what happens when you release a major update four months later?
+Their code will break. This will make engineers unhappy.</description>
+    </item>
+    
+    <item>
+      <title>Single Responsibility Principle (SRP)</title>
+      <link>/1srp/</link>
+      <pubDate>Mon, 20 Sep 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/1srp/</guid>
+      <description>Introduction The single responsibility principle says that every class or module in a program should only provide one specific functionality. As Robert C. Martin puts it, &amp;ldquo;A class should have only one reason to change.&amp;rdquo;
+Classes and modules often start off this way. Be careful not to add too many responsibilities as classes get more complicated. Refactor and break them up into smaller classes and modules.
+The consequence of overloading classes is twofold.</description>
+    </item>
+    
+  </channel>
+</rss>

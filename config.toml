@@ -1,0 +1,19 @@
+baseurl = ""
+title = "Programming tenets"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Programming tenets"
+    description = "Useful bits of knowledge"
+    github = "https://github.com/zopad"
+    twitter = "https://twitter.com/XXX"
+    email = "XXX@example.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+	"/" = "/:year/:month/:filename/"
+    post = "/:filename/"
